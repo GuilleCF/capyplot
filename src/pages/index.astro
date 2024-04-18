@@ -4,10 +4,10 @@ import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 ---
 
-<Layout title="Welcome to CapyPlot">
-  <main class="h-full">
+<main class="relative h-full">
+  <Layout title="Welcome to CapyPlot">
     <Navbar />
-    <section class="flex items-center h-5/6">
+    <section class="flex items-center h-4/6 mt-4">
       <div class="text-center">
         <h1
           class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -45,5 +45,5 @@ import Footer from "../components/Footer.astro";
       </div>
     </section>
     <Footer />
-  </main>
-</Layout>
+  </Layout>
+</main>
